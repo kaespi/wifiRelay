@@ -34,6 +34,14 @@ I observed that the button seems not to "automagically" re-connect to the networ
 
 Below a collection of links/hints/resources to help develop/build this project.
 
+### Arduino
+
+I was not using the Ubuntu arduino package. I found it's really outdated (at least on the system I was running). Therefore I recommend to download and install it directly from the [Arduino wegpage](https://www.arduino.cc/en/Main/Software).
+
+The installation of the ESP8266 part can be done e.g. after [this tutorial](https://randomnerdtutorials.com/how-to-install-esp8266-board-arduino-ide/).
+
+Note: even if you don't like the Arduino IDE but like to use VS code for the coding part (see below), you need the Arduino basic system to be installed!
+
 ### VS Code
 
 Recommended [VS code](https://code.visualstudio.com/) extensions:
