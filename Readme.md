@@ -48,6 +48,14 @@ Recommended [VS code](https://code.visualstudio.com/) extensions:
 * [C/C++ for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
 * [Visual Studio Code extension for Arduino](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino)
 
+### Serial port monitor
+
+I found the [Picocom](https://github.com/npat-efault/picocom) tool to be quite useful (there are packages for Linux distros). E.g. in my setup I used the following command to listen to the Serial port:
+
+```
+$ picocom -b 115200 /dev/ttyUSB0 
+```
+
 ### Links
 
 * [myStrom API](https://api.mystrom.ch)
